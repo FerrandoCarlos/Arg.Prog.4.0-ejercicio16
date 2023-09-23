@@ -1,0 +1,20 @@
+:root{
+    /* variables globales */
+    --bg-Black-Pearl:#041122;
+    --bg-Elf-Green:#259073;
+    --bg-De-York:#7fda89;
+    --bg-Sulu:#c8e98e;
+    --bg-Australian-Mint:#e6f99d;
+}
+
+#menu{
+    background: var(--bg-De-York);
+}
+
+.nav-items .nav-link {
+    color: var(--bg-Black-Pearl);
+}
+
+.nav-items .nav-link:hover{
+    text-decoration: underline;
+}
