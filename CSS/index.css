@@ -1,0 +1,18 @@
+ /* variables globales */
+:root{
+    --bg-Black-Pearl:#041122;
+    --bg-Elf-Green:#259073;
+    --bg-De-York:#7fda89;
+    --bg-Sulu:#c8e98e;
+    --bg-Australian-Mint:#e6f99d;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+ main{
+    background-color: var(--bg-De-York);
+    box-sizing: border-box;
+    padding: 20px;
+ }
+ 
+.card{
+    width: 20rem;
+}

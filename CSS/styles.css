@@ -1,5 +1,5 @@
+/* variables globales */
 :root{
-    /* variables globales */
     --bg-Black-Pearl:#041122;
     --bg-Elf-Green:#259073;
     --bg-De-York:#7fda89;
@@ -7,16 +7,19 @@
     --bg-Australian-Mint:#e6f99d;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+/* Fuente y reset del body */
 body{
     margin: 0 auto;
     padding: 0;
     font-family: var(--bs-font-sans-serif);
 }
+
+/* Estilos Navbar */
 .navbar{
     background-color: var(--bg-De-York);
 }
 
-.nav-items .nav-link {
+.nav-items > .nav-link {
     color: var(--bg-Black-Pearl);
 }
 
@@ -25,3 +28,19 @@ body{
     text-decoration-color: var(--bg-Australian-Mint);
     transition: text-decoration 1s .5s;
 }
+/* Fin estilos Navbar */
+/* Estilos Header + imagen*/
+header{
+    background-color: var(--bg-Black-Pearl);
+    padding: 20px;
+    text-align: center;
+}
+
+header img{
+    border-radius: 50%;
+}
+
+header h1{
+    color: var(--bg-Sulu);
+}
+/* Fin header */
