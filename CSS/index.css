@@ -1,18 +1,108 @@
  /* variables globales */
-:root{
-    --bg-Black-Pearl:#041122;
-    --bg-Elf-Green:#259073;
-    --bg-De-York:#7fda89;
-    --bg-Sulu:#c8e98e;
-    --bg-Australian-Mint:#e6f99d;
+ :root{
+    --bg-Deep-Koamaru:#313A5C;
+    --bg-Metallic-Blue:#365F73;
+    --bg-Weldon-Blue:#8399A6;
+    --bg-Bright-Gray:#EBEBEB;
+    --bg-Pastel-Gray:#C8D9C1;
+    --bg-Opal:#A1C7BD;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+/* cards */
  main{
-    background-color: var(--bg-De-York);
+    background-color: var(--bg-Pastel-Gray);
     box-sizing: border-box;
     padding: 20px;
  }
  
 .card{
     width: 20rem;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.card-body{
+    background-color: var(--bg-Metallic-Blue);
+}
+.card-body .btn-primary{
+    background-color: var(--bg-Deep-Koamaru); /* Green */
+}
+
+.card-body .btn-primary:hover{
+    background-color: var(--bg-Weldon-Blue);
+    color:#000;
+    transition: background-color 1s ease-out;
+    transition: color 1s ease-out;
+
+}
+/* Footer */
+footer{
+    background-color:var(--bg-Deep-Koamaru);
+}
+
+.container-footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+/* Iconos de redes */
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes a{
+    height: 7vh;
+    text-decoration: none;
+    padding: 10px;
+    background:var(--bg-Bright-Gray);/**/
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.redes a i{
+    font-size: 2rem;
+    color: var(--bg-Deep-Koamaru);
+    opacity: 0.9;
+}
+/* Efecto en iconos de redes */
+.redes a:hover{
+    background-color: var(--bg-Deep-Koamaru);
+    transition: 0.5s;
+}
+.redes a:hover i{
+    color:var(--bg-Bright-Gray);
+    transition: 0.5s;
+}
+
+/* Navbar Footer */
+.footer-nav{
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-nav ul li a{
+    color: var(--bg-Bright-Gray);
+    margin:20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.copy{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.copy p{
+    color: var(--bg-Bright-Gray);
 }
