@@ -34,6 +34,10 @@
     transition: color 1s ease-out;
 
 }
+
+.card-text, .card-title{
+    color: var(--bg-Bright-Gray);
+}
 /* Footer */
 footer{
     background-color:var(--bg-Deep-Koamaru);
@@ -105,4 +109,16 @@ footer{
 
 .copy p{
     color: var(--bg-Bright-Gray);
+}
+/* responsive footer*/
+
+@media (max-width: 720px) {
+    .footer-nav ul{
+        flex-direction:column;
+    }
+    .footer-nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
 }
